@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int c;
+
+    int result1 = scanf("%d", &a);
+    if (result1 != 1)
+    {
+        printf("Error: Failed to read an integer.\n");
+    }
+    
+    int result2 = scanf("%d", &b);
+    if (result2 != 1)
+    {
+        printf("Error: Failed to read an integer.\n");
+    }  
+    int result3 = scanf("%d", &c);
+    
+    if (result3 != 1)
+    {
+        printf("Error: Failed to read an integer.\n");
+    }
+
+    printf("%d", a + b + c);
+   
+    return 0;
+}
